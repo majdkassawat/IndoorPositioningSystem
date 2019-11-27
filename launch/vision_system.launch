@@ -1,0 +1,7 @@
+<launch>
+	
+	
+	<include file="$(find robot)/launch/usb_cam.launch" />
+	<include file="$(find robot)/launch/aruco.launch" />
+
+</launch>
